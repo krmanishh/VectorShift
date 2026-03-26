@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f0f13;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* React Flow customizations */
+.react-flow__pane {
+  background-color: #0f0f13;
+}
+.react-flow__background {
+  background-color: #0f0f13;
+}
+.react-flow__node {
+  border-radius: 12px;
+}
+.react-flow__edge-path {
+  stroke: #6366f1;
+  stroke-width: 2;
+}
+.react-flow__connection-path {
+  stroke: #a5b4fc;
+  stroke-width: 2;
+}
